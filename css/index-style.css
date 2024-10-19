@@ -1,0 +1,94 @@
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #F05A7E;
+}
+
+h1, 
+h2, 
+h3 {
+    color: rgb(255, 196, 112);
+    font-family:'Franklin Gothic Medium';
+    text-decoration: underline wavy rgba(71, 147, 175) 5px;
+    text-underline-offset: 18px;
+}
+
+h1 {
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h1::before,
+h2::after {
+    content: "\1F990"
+}
+
+.intro {
+    font-family: 'Times New Roman';
+    font-size: 1.0rem;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.footer {
+    font-size: small;
+    color: rgb(11, 132, 148);
+    text-align: right;
+}
+
+.toppage {
+    text-align: right;
+}
+
+.assignments li {
+    list-style-type: none;
+    font-size: 0.9rem;
+
+}
+
+.assignments li::before {
+    content: "\1F990 ";
+    font-size: 1.2rem;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.6;
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline wavy rgba(221, 87, 70) 2px;
+    text-underline-offset: 4px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+nav li ::before {
+    content: "\1F419 ";
+    font-size: 1.2rem;
+}
+
+nav a:link,
+nav a:visited {
+    line-height: 1.6;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy rgb(255, 190, 152) 2px;
+    text-underline-offset: 4px;
+}
