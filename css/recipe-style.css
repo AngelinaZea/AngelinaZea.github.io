@@ -1,0 +1,170 @@
+/*
+font-family: "Bree Serif", serif;
+font-family: "Tajawal", sans-serif;
+  */
+
+html {
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: lightpink;
+}
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+nav {
+    background-color:lightsteelblue;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover,
+nav a:active {
+    color: lightgoldenrodyellow;
+    text-decoration: underline dotted 3px;
+    text-decoration-color: white;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bree Serif", serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: -3px 2px 3px #472020;
+}
+
+header {
+    margin: 10%;
+}
+
+img {
+    float: left;
+    max-width: 30%;
+    margin-right: 3%;
+    margin-right: 5%;
+    border-radius: 50%;
+    box-shadow: -5px 5px 3px #6b6868;
+    shape-outside: circle(50%);
+}
+
+header h2 {
+    margin-top: 8%;
+}
+
+.rate {
+    clear: both;
+    margin-top: 6%;
+    font-family: "Bree Serif", serif;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: underline 2px;
+}
+
+.emoji::after {
+    content: "\1f370";
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutritions {
+    width: 40%;
+    float: left;
+}
+
+.details,
+.instructions {
+    margin-right: 16%;
+    margin-left: 2%;
+}
+
+blockquote {
+    clear: both;
+    width: 250px;
+    height: 250px;
+    padding: 65px 20px 0 30px;
+    color: white;
+    border-radius: 50%;
+    background-color: lightpink;
+    outline:  dotted 6px lightblue;
+    outline-offset: 10px;
+    font-family: "Bree Serif", serif;
+    font-size: 1rem;
+    margin: 40px auto;
+}
+
+blockquote small {
+    text-align: right;
+}
+
+footer {
+    background-color: lightsteelblue;
+    color: white;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+footer a:link,
+footer a:visited {
+    color: white;
+}
+
+footer a:hover,
+footer a:active {
+    color: lightgoldenrodyellow;
+    text-decoration: underline dotted 3px;
+    text-decoration-color: white;
+}
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: left;
+    width: 33%;
+}
+
+footer p {
+    clear: both;
+}
