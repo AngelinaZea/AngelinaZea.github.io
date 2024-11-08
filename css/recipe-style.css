@@ -10,6 +10,7 @@ html {
     line-height: 125%;
     color: lightpink;
 }
+
 *,
 * ::before,
 * ::after {
@@ -145,6 +146,8 @@ footer a {
 footer ul {
     list-style-type: none;
 }
+
+
 footer a:link,
 footer a:visited {
     color: white;
@@ -172,63 +175,7 @@ footer p {
 
 /* media queries go below */
 
-@media (max-width: 360px) {
-    html {
-        line-height: 135%;
-    }
-
-    nav a{
-        padding: 5px;
-        letter-spacing: normal;
-        font-size: .9rem;
-    }
-
-    nav ul {
-        padding-left: 10px;
-    }
-
-    main {
-        width: 90%;
-    }
-    
-    h1 {
-        font-size: 1.5rem;
-        text-shadow: none;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    img {
-        float: none;
-        max-width: 60%;
-        margin-left: 20%;
-    }
-
-    .rate {
-        font-size: 1rem;
-    }
-
-    .details,
-    .ingredients,
-    .instructions,
-    .nutritions {
-        width: 90%;
-        float: none;
-    }
-
-    .col1,
-    .col2,
-    .col3 {
-        display: block;
-        float: none;
-        width: 90%;
-    }
-
-}
-
-@media (max-width: 810px) {
+@media ( max-width: 810px ) {
     
     html {
         line-height: 160%;
@@ -297,3 +244,61 @@ footer p {
     }
 
 }
+
+@media ( max-width: 360px ) {
+    html {
+        line-height: 135%;
+    }
+
+    nav a{
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutritions {
+        width: 90%;
+        float: none;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+}
+
+
