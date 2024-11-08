@@ -178,8 +178,9 @@ footer p {
     }
 
     nav a{
-        padding: 8px;
+        padding: 5px;
         letter-spacing: normal;
+        font-size: .9rem;
     }
 
     nav ul {
@@ -228,6 +229,7 @@ footer p {
 }
 
 @media (max-width: 810px) {
+    
     html {
         line-height: 160%;
     }
