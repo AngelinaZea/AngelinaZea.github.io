@@ -168,3 +168,130 @@ footer a:active {
 footer p {
     clear: both;
 }
+
+
+/* media queries go below */
+
+@media (max-width: 360px) {
+    html {
+        line-height: 135%;
+    }
+
+    nav a{
+        padding: 8px;
+        letter-spacing: normal;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutritions {
+        width: 90%;
+        float: none;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 810px) {
+    html {
+        line-height: 160%;
+    }
+
+    nav a{
+        padding: 20px;
+        letter-spacing: normal;
+    }
+
+    nav ul {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    img {
+        max-width: 30%;
+        margin-left: 10%;
+    }
+
+    .rate {
+        font-size: 1.5rem;
+    }
+
+    .details,
+    .ingredients,
+    .instructions,
+    .nutritions {
+        width: 40%;
+    }
+
+    blockquote {
+        clear: both;
+        width: 250px;
+        height: 250px;
+        padding: 50px 20px 0 30px;
+        color: white;
+        border-radius: 50%;
+        background-color: lightpink;
+        outline:  dotted 7px lightblue;
+        outline-offset: 15px;
+        font-family: "Bree Serif", serif;
+        font-size: 1rem;
+        margin: 40px auto;
+    }
+    
+
+    .col1,
+    .col2,
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+}
