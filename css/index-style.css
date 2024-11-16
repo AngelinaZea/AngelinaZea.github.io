@@ -92,3 +92,57 @@ nav a:active {
     text-decoration: underline wavy rgb(255, 190, 152) 2px;
     text-underline-offset: 4px;
 }
+
+.animated  {
+    animation-duration: 4s;
+    animation-name: TitleAnimation;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+    animation-duration: 4s;
+    animation-name: Animation;
+}
+
+@keyframes Animation {
+
+    0%{
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        opacity: .5;
+        transform: rotate(180deg);
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes TitleAnimation {
+    
+    0%{
+        transform: skewX(0deg);
+    }
+
+    25%{
+        transform: skewX(25deg);
+    }
+    50%{
+        transform: skewX(-25deg);
+    }
+    75%{
+        transform: skewX(25deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+}
